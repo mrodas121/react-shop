@@ -11,10 +11,12 @@ import MyAccount from '../pages/MyAccount';
 import CreateAccount from '../pages/CreateAccount';
 import Checkout from '../pages/Checkout';
 import Orders from '../pages/Orders';
+import Menu from '../components/Menu';
 import '../styles/global.css';
 
 const App = () => {
 	return (
+		<>
 		<BrowserRouter>
 			<Layout>
 				<Routes>
@@ -31,6 +33,7 @@ const App = () => {
 				</Routes>
 			</Layout>
 		</BrowserRouter>
+		</>
 	);
 }
 export default App;
